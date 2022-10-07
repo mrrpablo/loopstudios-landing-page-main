@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class=" container mx-auto p-2">
+      <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="pt-2">
+          <img src="./images/logo.svg" alt="">
+        </div>
+        <!-- menu items -->
+        <div class="hidden md:flex space-x-6 text-white">
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+          <a href="#">Events</a>
+          <a href="#">Products</a>
+          <a href="#">Support</a>
+        </div>
+        <!-- hamburger icon -->
+      <button
+      id="menu-btn"
+      class="block hamburger md:hidden focus:outline-none"
+    >
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
+    </button>
+      </div>
+
+  <!-- mobile menu -->
+  <div class="md:hidden">
+    <div
+      id="menu"
+      class="absolute flex-col items-start self-end hidden p-8 uppercase mt-12 space-y-6 font-bold text-white bg-black bg-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+    >
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+      <a href="#">Events</a>
+      <a href="#">Products</a>
+      <a href="#">Support</a>
+    </div>
+  </div>
+   </nav>
+   <div>
+    <h1 class="banner">Immersive experiences that deliver</h1>
+   </div>
+  </header>
+
+  <section id="vr" class="my-20">
+    <div class="container flex flex-col items-center justify-center p-5 md:relative">
+      <div class="md:w-1/2 md:mr-60">
+        <img src="./images/desktop/image-interactive.jpg" alt="">
+      </div>
+      <div class=" bg-white p-5 text-black text-center md:text-start md:absolute md:top-60 md:right-20 md:py-20 md:px-10 md:w-[40%] md:shadow-lg">
+        <h2 class="uppercase text-2xl mb-3 tracking-widest">The leader in interactive VR</h2>
+        <p> Founded in 2011, Loopstudios has been producing world-class virtual reality 
+          projects for some of the best companies around the globe. Our award-winning 
+          creations have transformed businesses through digital experiences that bind 
+          to their brand.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="creations">
+    <!-- button -->
+    <div class="container flex justify-between items-center text-center px-8 py-2">
+      <div class="uppercase text-3xl ml-10 md:ml-0">
+        <h2>Our creations</h2>
+      </div>
+      <div>
+        <a href="#" class="uppercase text-black hidden border hover:bg-black  px-8 py-2 space-x-6 hover:text-white md:block">See all</a>
+      </div>
+    </div>
+    <div class=" container flex flex-col mt-10 md:flex-row md:flex-wrap md:-mr-5">
+      <div class="image-one flex flex-col items-center justify-center p-6 mt-10 space-y-6 relative text-white md:w-1/5 md:mx-3">
+        <h3 class="uppercase absolute bottom-6 items-start text-2xl">Deep Earth</h3>
+      </div>
+      <div class="image-two flex flex-col items-center p-6 mt-10 space-y-6 relative text-white md:w-1/5 md:mx-3">
+        <h3 class="uppercase absolute bottom-6 items-start text-2xl">Night arcade</h3>
+      </div>
+      <div class="image-three flex flex-col items-center p-6 mt-10 space-y-6 relative text-white md:w-1/5 md:mx-3">
+        
+        <h3 class="uppercase absolute bottom-6 items-start text-2xl"> Soccer team VR</h3>
+      </div>
+      <div class="image-four flex flex-col items-center p-6 mt-10 space-y-6 relative text-white md:w-1/5 md:mx-3">
+       
+        <h3 class="uppercase absolute bottom-6 items-start text-2xl">The grid</h3>
+      </div>
+      <div class="image-five flex flex-col items-center p-6 mt-10 space-y-6 relative text-white md:w-1/5 md:mx-3">
+       
+        <h3 class="uppercase absolute bottom-6 items-start text-2xl"> From up above VR</h3>
+      </div>
+      <div class="image-six flex flex-col items-center p-6 mt-10 space-y-6 relative text-white md:w-1/5 md:mx-3">
+        
+        <h3 class="uppercase absolute bottom-6 items-start text-2xl"> Pocket borealis</h3>
+      </div>
+      <div class="image-seven flex flex-col items-center p-6 mt-10 space-y-6 relative text-white md:w-1/5 md:mx-3">
+        
+        <h3 class="uppercase absolute bottom-6 items-start text-2xl">The curiosity</h3>
+      </div>
+      <div class="image-eight flex flex-col items-center p-6 mt-10 space-y-6 relative text-white md:w-1/5 md:mx-3">
+       
+        <h3 class="uppercase absolute bottom-6 items-start text-2xl">Make it fisheye</h3>
+      </div>
+      <div class="text-center my-8">
+        <a href="#" class="uppercase text-black text-center  border hover:bg-black  px-5 py-2 space-x-6 hover:text-white md:hidden">See all</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black text-white mt-10">
+    <div class="container flex flex-col justify-between items-center px-4 py-8 md:flex-row">
+      <div class="mb-2">
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <div class="flex justify-center space-x-4 items-center">
+        <a href="#">
+          <img src="./images/icon-facebook.svg" alt="">
+        </a>
+        <a href="#">
+          <img src="./images/icon-instagram.svg" alt="">
+        </a>
+        <a href="#">
+          <img src="./images/icon-twitter.svg" alt="">
+        </a>
+        <a href="#">
+          <img src="./images/icon-pinterest.svg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="container flex flex-col justify-between items-center  md:flex-row">
+      <div class="foot flex flex-col justify-center items-center  pb-8 md:flex-row md:space-x-6">
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+          <a href="#"> Events</a>
+          <a href="#">Products</a>
+          <a href="#">Support</a>
+      </div>
+      <div class="mt-5 pb-10 space-x-6 text-center md:text-start">
+        <p>© 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -754,16 +754,6 @@ video {
   padding-right: 1rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -773,24 +763,16 @@ video {
   padding-top: 0.5rem;
 }
 
-.pb-5{
-  padding-bottom: 1.25rem;
+.pb-8{
+  padding-bottom: 2rem;
 }
 
 .pb-10{
   padding-bottom: 2.5rem;
 }
 
-.pb-8{
-  padding-bottom: 2rem;
-}
-
 .text-center{
   text-align: center;
-}
-
-.text-start{
-  text-align: start;
 }
 
 .text-2xl{
@@ -1169,6 +1151,10 @@ header {
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:opacity-70:hover{
+  opacity: 0.7;
 }
 
 .focus\:outline-none:focus{
